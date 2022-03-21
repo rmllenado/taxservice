@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TaxService</name>
+    </assembly>
+    <members>
+        <member name="M:TaxService.Controllers.TaxServiceController.GetRates(System.String,System.String,System.String)">
+            <summary>
+            Returns tax rates for a location
+            </summary>
+            <param name="zipcode"></param>
+            <param name="city"></param>
+            <param name="country"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TaxService.Controllers.TaxServiceController.GetTax(TaxService.Models.Order)">
+            <summary>
+            Returns taxes for an order
+            </summary>
+            <param name="order"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
